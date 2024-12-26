@@ -11,18 +11,22 @@ public class Cell {
 		this.row = row;
 	}
 	
+	//state is true=alive, false=dead.
 	public boolean getState() {
 		return state;
 	}
 	
+	//can manually set once created to change through the generations
 	public void setState(boolean state) {
 		this.state = state;
 	}
 	
+	//returns the row it is in
 	public int getRow() {
 		return row;
 	}
 	
+	//returns the column it is in
 	public int getCol() {
 		return col;
 	}
